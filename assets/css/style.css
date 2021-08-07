@@ -93,6 +93,8 @@ section {
     background-image: url(../images/dark.jpg);
     width: 100%;
     background-attachment: fixed;
+    background-size: cover;
+    background-position: bottom;
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-end;
