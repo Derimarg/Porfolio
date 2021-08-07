@@ -10,161 +10,142 @@
 </head>
 
 <body>
+    <!-- header -->
     <header>
         <div class="flex-container back-color">
-            <h1>
-                <a href="./index.html#portfolio">Portfolio</a>
-            </h1>
+            <h1><a href="./index.html#portfolio">Portfolio</a></h1>
         </div>
         <nav>
             <ul>
-                <li>
-                    <a href="./index.html#about-me" title="About Me">About Me</a>
-                </li>
-                <li>
-                    <a href="./index.html#work" title="Work">Work</a>
-                </li>
-                <li>
-                    <a href="./index.html#contact-me" title="Contact Me">Contact Me</a>
-                </li>
-                <li>
-                    <a href="./coming-soon.html" target="_blank" title="Resume">Resume</a>
-                </li>
+                <li><a href="./index.html#about-me" title="About Me">About Me</a></li>
+                <li><a href="./index.html#work" title="Work">Work</a></li>
+                <li><a href="./index.html#contact-me" title="Contact Me">Contact Me</a></li>
+                <li><a href="./coming-soon.html" target="_blank" title="Resume">Resume</a></li>
             </ul>
         </nav>
     </header>
-    <main>
-        <!-- Image section -->
-        <section class="cover">
-            <a href="https://github.com/Derimarg" target="_blank">
-                <div class="middle-cover">
-                    <h2>I'm Derimar Gray</h2>
-                    <p>Full Stack Web Developer</p>
+
+    <!-- Image section -->
+    <section class="cover">
+        <div class="picture">
+            <img src="./assets/images/profile.png" alt="Derimar's image profile">
+        </div>
+        <a href="https://github.com/Derimarg" target="_blank" class="middle-cover">
+            <h2>I'm Derimar Gray</h2>
+            <p>Full Stack Web Developer</p>
+        </a>
+    </section>
+
+    <!-- About Me -->
+    <section id="about-me" class="about">
+        <div class="title">
+            <h2>About Me</h2>
+        </div>
+        <div class="content">
+            <p>
+                Full Stack Developer and Mechanical Engineer, specializing in front/back end development with 6 months
+                experience developing websites
+                using the latest core web technologies. Knowledge in HTML, Advance CSS,
+                JavaScript, JQuery, GitHub, Bootstrap, Bulma, APIs. Back end development: SQL Server(MySQL, SQLite).
+            </p>
+            <p>
+                Additional Skills: Photoshop, Genexus x Evolution v1, Chief Architect. An
+                enthusiastic and self-motivated developer, who’s focusing on building user-friendly, detail are some of
+                the additional points I owned.
+            </p>
+        </div>
+    </section>
+
+    <!-- Work -->
+    <section id="work" class="container-work">
+        <div class="title">
+            <h2>Work</h2>
+        </div>
+        <div class="content">
+            <a href="https://lernantino.github.io/run-buddy/" target="_blank" class="project1">
+                <div class="projects">
+                    <h3>Run Buddy</h3>
+                    <p>HTML/CSS</p>
                 </div>
             </a>
-        </section>
-
-        <!-- About me section-->
-        <section id="about-me">
-            <div id="about" class="step border">
-                <h2 id="border">About Me</h2>
-                <div id="text" class="step-text">
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci molestiae deleniti officiis
-                        nesciunt
-                        earum est ipsam ex facilis eius eum. Voluptatum est totam pariatur fuga quia, tempore vero
-                        similique
-                        sapiente. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita exercitationem
-                        porro mollitia dolor eos saepe ab rem cupiditate dignissimos, delectus nostrum unde et laborum
-                        ad deserunt distinctio perferendis ullam! Expedita.
-                    </p><br />
-                    <p>
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla alias magni molestiae eveniet
-                        unde
-                        architecto excepturi dolor dolorum perspiciatis, amet eum quam laborum quasi provident cumque
-                        eos
-                        dolores cum accusamus. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem cum
-                        asperiores aspernatur sapiente sint doloribus distinctio numquam, at assumenda voluptatem
-                        delectus temporibus necessitatibus a cupiditate voluptatibus ratione! Quasi, sit unde?
-                    </p>
+            <a href="https://derimarg.github.io/taskinator/" target="_blank" class="project2">
+                <div class="projects">
+                    <h3>Taskinator</h3>
+                    <p>HTML/CSS/JS</p>
                 </div>
-            </div>
-        </section>
-
-        <!-- Work section -->
-        <section id="work">
-            <div class="step">
-                <h2 id="tag">Work</h2>
-                <span class="tag"></span>
-                <div class="gallery">
-                    <div class="mainrow ">
-                        <div id="surf" class="img-surf content">
-                            <a href="./coming-soon.html" target="_blank"><img src="./assets/images/surf.jpg"
-                                    alt="Surf Report" style="width: 100%"></a>
-                            <div id="label" class="label">
-                                <h3>Surf Report</h3>
-                                <p>MERN Stack</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Portfolio Gallery grid-->
-                    <div id="row" class="row">
-                        <div class="column">
-                            <div id="led" class="pictures content">
-                                <a href="./coming-soon.html" target="_blank"><img src="./assets/images/led.jpg"
-                                        alt="LED Wall" style="width: 100%"></a>
-                                <div id="labels" class="label">
-                                    <h3>LED Wall</h3>
-                                    <p>Node/loT</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="column">
-                            <div id="calculator" class=" pictures content">
-                                <a href="https://derimarg.github.io/search-engine-optimization/" target="_blank"><img
-                                        src="./assets/images/calculator.jpg" alt="Calculator" style="width: 100%"></a>
-                                <div id="labels" class="label">
-                                    <h3>Calculator</h3>
-                                    <p>React/JavaScript/CSS</p>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                    <div class="row">
-                        <div class="column">
-                            <div id="puzzel" class="pictures content">
-                                <a href="./coming-soon.html" target="_blank"><img src="./assets/images/puzzel.jpg"
-                                        alt="Clock with background divided" style="width: 100%">
-                                </a>
-                                <div id="labels" class="label">
-                                    <h3>Pastel Puzzels</h3>
-                                    <p>MERN tack</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="column">
-                            <div id="run-buddy" class="pictures content">
-                                <a href="https://derimarg.github.io/run-buddy/" target="_blank"><img
-                                        src="./assets/images/run-buddy.jpg" alt="Home web page preview"
-                                        style="width: 100%"></a>
-                                <div id="labels" class="label">
-                                    <h3>Run Buddy</h3>
-                                    <p>HTML/CSS</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- end grid-->
+            </a>
+            <a href="https://derimarg.github.io/password-generator/" target="_blank" class="project3">
+                <div class="projects">
+                    <h3>Password Generator</h3>
+                    <p>HTML/CSS/JS</p>
                 </div>
-            </div>
-        </section>
-    </main>
+            </a>
+            <a href="https://derimarg.github.io/taskmaster-pro/" target="_blank" class="project4">
+                <div class="projects">
+                    <h3>Taskmaster Pro</h3>
+                    <p>HTML/CSS/Bootstrap/JS</p>
+                </div>
+            </a>
+            <a href="https://derimarg.github.io/work-day-scheduler/" target="_blank" class="project5">
+                <div class="projects">
+                    <h3>Work Day Scheduler</h3>
+                    <p>HTML/CSS/Bootstrap/JQuery/Third-Party API's</p>
+                </div>
+            </a>
+            <a href="https://derimarg.github.io/weather-dashboard/" target="_blank" class="project6">
+                <div class="projects">
+                    <h3>Weather Dashboard</h3>
+                    <p>HTML/CSS/Bootstrap/JS/Server-Side API's</p>
+                </div>
+            </a>
+            <a href="https://derimarg.github.io/weather-dashboard/" target="_blank" class="project7">
+                <div class="projects">
+                    <h3>Code Quiz</h3>
+                    <p>HTML/CSS/Bootstrap/JS</p>
+                </div>
+            </a>
+            <a href="https://derimarg.github.io/git-it-done/" target="_blank" class="project8">
+                <div class="projects">
+                    <h3>Git It Done</h3>
+                    <p>HTML/CSS/Bootstrap/JS/Server-Side API's</p>
+                </div>
+            </a>
+            <a href="https://derimarg.github.io/robot-gladiators/" target="_blank" class="project9">
+                <div class="projects">
+                    <h3>Robot Gladiators</h3>
+                    <p>HTML/JS</p>
+                </div>
+            </a>
+            <a href="https://derimarg.github.io/search-engine-optimization/" target="_blank" class="project9">
+                <div class="projects">
+                    <h3>Search Engine Optimazation</h3>
+                    <p>HTML/CSS</p>
+                </div>
+            </a>
+            <a href="" target="_blank" class="project10">
+                <div class="projects">
+                    <h3>Destination Hub</h3>
+                    <p>HTML/CSS/Bulma/JS/Server-Side Third-Party API's</p>
+                </div>
+            </a>
+        </div>
+    </section>
 
     <!-- footer -->
-    <footer id="contact-me">
-        <div id="contact" class="step border">
-            <h2 id="border">Contact Me</h2>
-            <div class="step-text">
+    <footer>
+        <section id="contact-me" class="contact">
+            <div class="title">
+                <h2>Contact Me</h2>
+            </div>
+            <div class="content">
                 <ul>
-                    <li>
-                        <a href="tel:555.555.5555" title="Phone">555.555.5555</a>
-                    </li>
-                    <li>
-                        <a href="mailto:portfolio@website.com">portfolio@website.com</a>
-                    </li>
-                    <li>
-                        <a href="https://github.com/Derimarg" target="_blank">GitHub</a>
-                    </li>
-                    <li>
-                        <a href="https://twitter.com/explore" target="_blank">Twitter</a>
-                    </li>
-                    <li>
-                        <a href="https://open.spotify.com/" target="_blank">Spotify</a>
-                    </li>
+                    <li><a href="tel:555.555.5555" title="Phone">555.555.5555</a></li>
+                    <li><a href="mailto:portfolio@website.com">charminvidal@gmail.com</a></li>
+                    <li><a href="https://github.com/Derimarg" target="_blank">GitHub</a></li>
+                    <li><a href="https://www.linkedin.com/in/derimar-gray-676275132/" target="_blank">Linkedin</a></li>
                 </ul>
             </div>
-        </div>
+        </section>
     </footer>
 </body>
 
