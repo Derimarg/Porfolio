@@ -37,7 +37,7 @@ Hello! My name is Derimar Gray, and I'm in Kansas, USA. I have a diverse set of 
  Use the follow command at your terminal, **git clone** (Create a working copy of a local repository):
 
 ```html
-git clone git@github.com:Derimarg/Derimarg.github.io.git
+git clone git@github.com:Derimarg/Porfolio.git
 ```
 
 After cloned the repository, create your own repository, copy the files to your repository and type in your terminal the follow commands. 
